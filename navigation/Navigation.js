@@ -3,10 +3,6 @@ import {NavigationContainer} from '@react-navigation/native' //Solo puede haber 
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import { Icon } from 'react-native-elements';
 
-import Account from '../screens/account/Account' //Las pantallas se importan sin el {}
-import Search from '../screens/Search' //Las pantallas se importan sin el {}
-import Favorites from '../screens/favorites/Favorites' //Las pantallas se importan sin el {}
-import TopRestaurants from '../screens/TopRestaurants' //Las pantallas se importan sin el {}
 import RestaurantStack from './RestaurantStack';
 import AccountStack from './AccountStack';
 import FavoritesStack from './FavoritesStack';

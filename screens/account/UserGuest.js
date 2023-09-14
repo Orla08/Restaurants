@@ -1,14 +1,16 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Loading from '../../components/Loading'
 
-const UsserGuest = () => {
+const UserGuest = () => {
   return (
     <View>
       <Text>UsserGuest....</Text>
+      <Loading isVisible={true} text='Cargando'/>
     </View>
   )
 }
 
-export default UsserGuest
+export default UserGuest
 
 const styles = StyleSheet.create({})
